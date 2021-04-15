@@ -16,10 +16,17 @@
     padding-top: 30px;
 }
 h1{
-    padding-top: 7%;
+    text-align: center;
 }
-#logo{
+.about{
 
-  
+  text-align: center;
+  padding-top: 30px ;
+
+}
+.column{
+text-align: center;
+width: 88%;
+
 }
 
