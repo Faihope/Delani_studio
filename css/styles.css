@@ -1,0 +1,25 @@
+
+.text-center {
+    background-image: url("css/images/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+    
+}
+.welcome{
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 30px;
+}
+h1{
+    padding-top: 7%;
+}
+#logo{
+
+  
+}
+
