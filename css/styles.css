@@ -1,12 +1,13 @@
 
 .text-center {
     background-image: url("css/images/h_img.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding: 20%;
     text-align: center;
     color: white;
     font-size: 12px;
+    
 
     
 }
@@ -15,18 +16,28 @@
     font-size: 2rem;
     padding-top: 30px;
 }
-h1{
+h1,h3{
     text-align: center;
 }
+
 .about{
 
   text-align: center;
   padding-top: 30px ;
+  
 
 }
 .column{
 text-align: center;
 width: 88%;
 
+}
+.services{
+    background-image: url("css/images/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: auto ;
+    padding: 10%;
+    color: white;
+    padding-left: 10%;
 }
 
