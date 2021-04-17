@@ -1,9 +1,11 @@
-
-.text-center {
+*{
+    box-sizing: border-box;
+}
+.home {
     background-image: url("css/images/h_img.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 20%;
+    padding: 10% 10% 10% 10%;
     text-align: center;
     color: white;
     font-size: 12px;
@@ -14,33 +16,64 @@
 .welcome{
     text-transform: uppercase;
     font-size: 2rem;
-    padding-top: 30px;
+    padding-top: 13%;
+
 }
 h1,h3{
     text-align: center;
 }
+.logo{
+    padding-top: 5%;
+}
+
 
 .about{
 
   text-align: center;
-  padding-top: 30px ;
-  
-
+  padding-bottom: 30px ;
 }
+.mouse{
+    padding-bottom: 2%;
+    
+}
+
+
 .column{
 text-align: center;
+flex-direction: column;
 width: 88%;
+
 
 }
 .services{
     background-image: url("css/images/s_image.jpg");
     background-repeat: no-repeat;
-    background-size: auto ;
-    padding: 10%;
+  
+    padding: 20%;
     color: white;
-    padding-left: 10%;
+    
 }
-.images{
-    padding-right: 2%;
+.sign{
+    background-image: url("../css/css/images/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
+.portfolio{
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.whatwedo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.footer{
+    padding-top: 3%;
+}
+h6{
+    padding-top: 3%;
+}
+
+    
+
 
