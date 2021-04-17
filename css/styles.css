@@ -66,7 +66,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    
+
     text-align: center;
 }
 
@@ -86,11 +86,36 @@ h3 {
 h6 {
     padding-top: 3%;
 }
-#submit{
+
+#submit {
     padding: 2%;
     text-align: center;
 }
-.form-group{
+
+.form-group {
     text-align: center;
-    
+
+}
+
+.col-md-3 text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.helo {
+    position: absolute;
+    top: 8px;
+    left: 28px;
+    right: 4px;
+    padding-bottom: 40%;
+    padding-right: 80%;
+    color: white;
+    width: 50%;
+    border: 2px solid white;
+
+}
+#bailey{
+    opacity: 0.5;
+  
 }
