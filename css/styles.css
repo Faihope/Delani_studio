@@ -1,6 +1,7 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 .home {
     background-image: url("css/images/h_img.jpg");
     background-size: cover;
@@ -9,71 +10,79 @@
     text-align: center;
     color: white;
     font-size: 12px;
-    
 
-    
+
+
 }
-.welcome{
+
+.welcome {
     text-transform: uppercase;
     font-size: 2rem;
     padding-top: 13%;
 
 }
-h1,h3{
+
+h1,
+h3 {
     text-align: center;
 }
-.logo{
+
+.logo {
     padding-top: 5%;
 }
 
 
-.about{
+.about {
 
-  text-align: center;
-  padding-bottom: 30px ;
-}
-.mouse{
-    padding-bottom: 2%;
-    
+    text-align: center;
+    padding-bottom: 30px;
 }
 
+.mouse {
+    padding-top: 10%;
 
-.column{
-text-align: center;
-flex-direction: column;
-width: 88%;
+}
+
+
+.column {
+    text-align: center;
+    flex-direction: column;
+    width: 88%;
 
 
 }
-.services{
+
+.services {
     background-image: url("css/images/s_image.jpg");
     background-repeat: no-repeat;
-  
+
     padding: 20%;
     color: white;
-    
+
 }
-.sign{
+
+.sign {
     background-image: url("../css/css/images/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    padding-top: 5%;
+    text-align: center;
 }
-.portfolio{
+
+.portfolio {
     padding-bottom: 2%;
     padding-top: 2%;
 }
+
 /* .whatwedo{
     padding-top: 2%;
     padding-bottom: 2%;
 } */
-.footer{
-    padding-top: 3%;
-}
-h6{
+.footer {
     padding-top: 3%;
 }
 
-    
-
-
+h6 {
+    padding-top: 3%;
+}
