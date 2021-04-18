@@ -103,3 +103,6 @@ $(document).ready(function () {
     });
 
 })
+function submit(){
+    alert("Your Message has been received,thank you for contacting us");
+}
