@@ -104,5 +104,41 @@ $(document).ready(function () {
 
 })
 function submit(){
-    alert("Your Message has been received,thank you for contacting us");
+    enteredName =validName();
+    validEmail()
+    message();
+    alert("Hey " + enteredName +" We have received your message. Thank you fo contacting us." ) ;
+   
+
+}
+
+function validName(){
+var name=document.getElementById("user").value;
+if(name==""){
+    alert("please provide your name")
+}
+else{
+    return name;
+}
+   
+}
+
+function validEmail(){
+    var email=document.getElementById("email").value;
+    if(email==""){
+        alert("please provide your email");
+    }
+    else{
+        return ;
+    }
+}
+
+function message(){
+    var message=document.getElementById("message").value;
+    if (message==""){
+        alert("please input your message");
+    }
+
+
+
 }
