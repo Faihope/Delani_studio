@@ -47,5 +47,23 @@ $(document).ready(function () {
         $("#two").hide();
 
     });
+    // hover effect on image three
+    $(".three").mouseenter(function () {
+        $("#three").show();
+
+    });
+    $(".three").mouseleave(function () {
+        $("#three").hide();
+
+    });
+    // hover effect on image four
+    $(".four").mouseenter(function () {
+        $("#four").show();
+
+    });
+    $(".four").mouseleave(function () {
+        $("#four").hide();
+
+    });
 
 })

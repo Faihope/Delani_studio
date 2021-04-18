@@ -130,7 +130,7 @@ h6 {
 #describe-product{
     display: none;
 }
-#one,#two{
+#one,#two,#three,#four,#five,#six,#seven,#eight{
     display: none;
     position: absolute;
     top: 8px;
