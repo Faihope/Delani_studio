@@ -19,7 +19,7 @@ CSS
 JavaScript and jQuey
 Git
 ### Live Site
-View [live](https://faihope.github.io/portfolio/)
+View [live](https://faihope.github.io/Delani_studio/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence
 License format:

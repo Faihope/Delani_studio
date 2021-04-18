@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Ubuntu Mono', monospace;
-font-family: 'Zen Dots', cursive;
+    font-family: 'Zen Dots', cursive;
 }
 
 .home {
@@ -123,16 +123,26 @@ h6 {
 
 }
 
-#describe-design{
+#describe-design {
     display: none;
 }
-#describe-develop{
+
+#describe-develop {
     display: none;
 }
-#describe-product{
+
+#describe-product {
     display: none;
 }
-#one,#two,#three,#four,#five,#six,#seven,#eight{
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight {
     display: none;
     position: absolute;
     top: 8px;

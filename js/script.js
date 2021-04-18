@@ -103,40 +103,40 @@ $(document).ready(function () {
     });
 
 })
-function submit(){
-    enteredName =validName();
+function submit() {
+    var enteredName = validName();
+    enteredName = document.getElementById("user").value;
     validEmail()
     message();
-    alert("Hey " + enteredName +" We have received your message. Thank you fo contacting us." ) ;
-   
+    alert("Hey " + enteredName + " ,We have received your message. Thank you for reaching out to us.");
+
 
 }
 
-function validName(){
-var name=document.getElementById("user").value;
-if(name==""){
-    alert("please provide your name")
-}
-else{
-    return name;
-}
-   
+function validName() {
+    var name = document.getElementById("user").value;
+    if (name == "") {
+        alert("please provide your name");
+        document.getElementById("user").focus();
+        return false;
+    }
 }
 
-function validEmail(){
-    var email=document.getElementById("email").value;
-    if(email==""){
+function validEmail() {
+    var email = document.getElementById("email").value;
+    if (email == "") {
         alert("please provide your email");
-    }
-    else{
-        return ;
+        document.email.email.focus();
+        return false;
     }
 }
 
-function message(){
-    var message=document.getElementById("message").value;
-    if (message==""){
+function message() {
+    var message = document.getElementById("message").value;
+    if (message == "") {
         alert("please input your message");
+        document.message.message.focus();
+        return true;
     }
 
 
