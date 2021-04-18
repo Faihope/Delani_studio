@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    
     $("#design").click(function(){
 $("#describe-design").show();
 $("#design").hide();
@@ -30,5 +29,14 @@ $("#design").hide();
                         $("#describe-product").hide();
                 
                     });
+                    $(".one").mouseenter(function(){
+                        $("#one").show();
+
+                    });
+                    $(".one").mouseleave(function(){
+                        $("#one").hide();
+
+                    });
+
     
 })

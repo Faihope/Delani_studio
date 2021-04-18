@@ -69,7 +69,7 @@ h3 {
     text-align: center;
 }
 
-.portfolio {
+#portfolio {
     padding-bottom: 4%;
     padding-top: 2%;
 }
@@ -115,6 +115,7 @@ h6 {
 
 }
 
+
 #bailey {
     opacity: 0.5;
 
@@ -128,4 +129,17 @@ h6 {
 }
 #describe-product{
     display: none;
+}
+#one{
+    display: none;
+    position: absolute;
+    top: 8px;
+    left: 28px;
+    right: 4px;
+    color: white;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    width: 50%;
+    border: 2px solid white;
+
 }
