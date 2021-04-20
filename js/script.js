@@ -131,6 +131,7 @@ function validEmail() {
     }
 }
 
+
 function message() {
     var message = document.getElementById("message").value;
     if (message == "") {
